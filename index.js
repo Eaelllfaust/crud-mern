@@ -23,7 +23,7 @@ app.get("/", (req, res) => {
 
 mongoose
   .connect(
-    "mongodb+srv://eaelllfaust:yVnrjveko7DUdtT6@cluster0.9jzmj5o.mongodb.net/init-api?retryWrites=true&w=majority&appName=Cluster0"
+    ""
   )
   .then(() => {
     console.log("Connected!");
